@@ -1,6 +1,8 @@
 Testing with wallaby.js and Jest
 ==================================
 
+![jest](https://cloud.githubusercontent.com/assets/979966/7604375/13921a76-f985-11e4-9820-c8a5f2d26858.gif)
+
 ## Install Jest
 
 `npm install`
