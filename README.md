@@ -1,6 +1,10 @@
 Testing with wallaby.js and Jest
 ==================================
 
+## Install Jest
+
+`npm install`
+
 ## Configure wallaby.js
 
 Create [wallaby.js configuration file](https://github.com/wallabyjs/public#configuration-file-format).
