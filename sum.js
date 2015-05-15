@@ -1,8 +1,6 @@
 
 function sum(value1, value2) {
-  //asd;
-  var s = 0.0;
-  return value1 + value2 + s;
+  return value1 + value2;
 }
 
 module.exports = sum;
