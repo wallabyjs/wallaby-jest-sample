@@ -6,7 +6,8 @@ module.exports = function () {
     tests: ['__tests__/*.js'],
 
     env: {
-      type: 'node'
+      type: 'node',
+      runner: 'node'
     },
 
     testFramework: 'jest@0.4.3'
