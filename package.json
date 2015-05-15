@@ -1,0 +1,5 @@
+{
+  "devDependencies": {
+    "jest-cli": "^0.4.3"
+  }
+}
