@@ -56,3 +56,7 @@ module.exports = function () {
   };
 };
 ```
+
+## Jest `scriptPreprocessor`
+
+If you are using `scriptPreprocessor` for some source files that you'd like to see wallaby coverage for, you'll need to use [wallaby preprocessor](https://github.com/wallabyjs/public#preprocessors-setting) or [wallaby compiler](https://github.com/wallabyjs/public#compilers-setting) instead.
