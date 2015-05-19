@@ -29,6 +29,8 @@ module.exports = function () {
 };
 ```
 
+**Please note that wallaby.js is using its own cache to run your tests from, not the local project folder, so you need to include all files (except node modules) that your tests need, for example `__mocks__/*.*`, etc.** 
+
 ## Configure Jest
 
 If you have some Jest config, pass the config object to `configure` function of the test framework in wallaby [`bootstrap` function](https://github.com/wallabyjs/public#bootstrap-setting).
