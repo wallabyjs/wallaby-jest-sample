@@ -7,7 +7,10 @@ module.exports = function () {
 
     env: {
       type: 'node',
-      runner: 'node'
+      runner: 'node',
+      params: {
+        runner: '--harmony'
+      }
     },
 
     testFramework: 'jest@0.4.3'
