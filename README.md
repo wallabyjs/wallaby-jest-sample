@@ -24,7 +24,7 @@ module.exports = function () {
       runner: 'node'
     },
 
-    testFramework: 'jest@0.4.3'
+    testFramework: 'jest'
   };
 };
 ```
@@ -48,7 +48,7 @@ module.exports = function () {
       runner: 'node'
     },
 
-    testFramework: 'jest@0.4.3',
+    testFramework: 'jest',
 
     bootstrap: function (wallaby) {
       wallaby.testFramework.configure({
