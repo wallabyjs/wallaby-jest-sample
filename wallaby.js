@@ -15,7 +15,6 @@ module.exports = function () {
 
     testFramework: 'jest'
 
-    // Use bootstrap function
     //setup: function (wallaby) {
     //  wallaby.testFramework.configure({
     //    // https://facebook.github.io/jest/docs/api.html#config-options
