@@ -1,5 +1,6 @@
 {
   "devDependencies": {
-    "jest-cli": "*"
+    "jest-cli": "^20.0.4",
+    "typescript": "^2.4.1"
   }
 }
