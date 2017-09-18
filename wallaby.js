@@ -7,18 +7,9 @@ module.exports = function () {
 
     env: {
       type: 'node',
-      runner: 'node',
-      params: {
-        runner: '--harmony'
-      }
+      runner: 'node'
     },
 
     testFramework: 'jest'
-
-    //setup: function (wallaby) {
-    //  wallaby.testFramework.configure({
-    //    // https://facebook.github.io/jest/docs/api.html#config-options
-    //  });
-    //}
   };
 };
